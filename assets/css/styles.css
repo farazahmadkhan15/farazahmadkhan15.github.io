@@ -522,13 +522,14 @@ ul {
 
 .image-bg {
   background-size: cover;
-  background-size: cover;
+  background-size: cover;  
   background-repeat: no-repeat;
   margin: 0 auto;
   background-position: center center; }
 
 .home-2-img {
-  background-image: url(../images/home-bg-img.jpg); }
+  background-image: url(../images/home-bg-img.jpg);
+  background-color: rgba(0, 0, 0, 0.9) }
 
 .featured-img-one {
   background-image: url(../images/home-bg-img.jpg); }
@@ -629,7 +630,7 @@ button {
 .white-vertion .nav-strict {
   background-color: #fff; }
 .white-vertion .img-color-overlay {
-  background-color: rgba(255, 255, 255, 0.9); }
+  background-color: rgba(255, 255, 255, 0.1); }
 .white-vertion .dark-bg {
   background-color: #fff; }
 .white-vertion .mh-home .mh-header-info .mh-promo span {
@@ -747,7 +748,7 @@ button {
   .dark-vertion .nav-strict {
     background-color: #202026; }
   .dark-vertion .img-color-overlay {
-    background-color: rgba(0, 0, 0, 0.9); }
+    background-color: rgba(0, 0, 0, 0); }
   .dark-vertion .mh-home .mh-header-info .social-icon li .fa:hover {
     background-color: #fff; }
   .dark-vertion .page-item.active .page-link {
@@ -2682,5 +2683,9 @@ BLOG Pagination
   font-size: 22px;
   line-height: 30px;
   margin-bottom: 30px; }
+
+  .home-2-img {
+  background-image: url(../images/home-bg-img.jpg);
+  background-color: rgba(0, 0, 0, 0.9) }
 
 /*# sourceMappingURL=styles.css.map */
